@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>[Your Name] - Astronomer</title>
+    <title>Jonathan Carney, Astronomer</title>
     <style>
         * {
             margin: 0;
@@ -60,6 +60,16 @@
             box-shadow: 0 1px 3px rgba(0,0,0,0.08);
         }
 
+        main a {
+            color: #2563eb;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        main a:hover {
+            color: #1d4ed8;
+        }
+
         /* Research Section */
         .research-intro {
             margin-bottom: 3rem;
@@ -102,6 +112,13 @@
             color: #666;
             font-size: 0.9rem;
             line-height: 1.5;
+        }
+
+        .image-credit {
+            margin-top: 0.5rem;
+            font-size: 0.8rem;
+            color: #999;
+            font-style: italic;
         }
 
         /* Footer Section */
@@ -156,8 +173,8 @@
     <header>
         <h1>Jonathan Carney</h1>
         <div class="header-links">
-            <a href="Jonathan_Carney_CV_with_pubs_November_2025-1.pdf">CV</a>
-            <a href="https://ui.adsabs.harvard.edu/search/q=author%3A%22Carney%2C%20Jonathan%22" target="_blank">Publications</a>
+            <a href="Jonathan_Carney_CV_with_pubs_November_2025-1.pdf">Curriculum Vitae</a>
+            <a href="https://ui.adsabs.harvard.edu/search/q=author%3A%22Carney%2C%20Jonathan%22" target="_blank">Research</a>
         </div>
     </header>
 
@@ -169,24 +186,26 @@
                 I am a Ph.D. candidate in Physics at the University of North Carolina at Chapel Hill, 
                 working with Professors Nicholas Law and Igor Andreoni. My research focuses on 
                 high-cadence time-domain astronomy, studying rare and extreme astrophysical transients 
-                including tidal disruption events (TDEs) and gamma-ray bursts (GRBs)...
+                including tidal disruption events (TDEs) and gamma-ray bursts (GRBs).
             </p>
-            <!-- <p>
-                I use machine learning and computer vision to develop next-generation survey pipelines 
-                for detecting and characterizing optical transients. My work combines multi-telescope 
-                observational campaigns (SOAR, Gemini, VLT, Keck, HST) with rapid follow-up spectroscopy 
-                to catch these events in their earliest stages, providing crucial insights into extreme 
+            <p>
+                I work on the <a href="https://evryscope.astro.unc.edu/" target="_blank">Argus Array</a> 
+                with Nick Law, developing machine learning and computer vision techniques for 
+                next-generation survey pipelines. My work combines multi-telescope observational 
+                campaigns (SOAR, Gemini, VLT, Keck, HST) with rapid follow-up spectroscopy to catch 
+                these events in their earliest stages, providing crucial insights into extreme 
                 physical processes.
-            </p> -->
+            </p>
         </section>
 
         <!-- Research Figures -->
         <div class="figures-grid">
             <div class="figure-item">
-                <img src="https://via.placeholder.com/600x400/2a2a2a/ffffff?text=Figure+1" alt="Research Figure 1">
+                <img src="https://scicom-lab.com/wp-content/uploads/2023/01/TDE_CloseUp_Landscape_01.jpeg" alt="Tidal Disruption Event illustration">
                 <p class="figure-caption">
-                    <strong>Figure 1:</strong> [Brief caption describing what this figure shows and why it's important to your research.]
+                    <strong>Tidal Disruption Events:</strong> When a star ventures too close to a supermassive black hole, it gets torn apart by tidal forces. I study these rare events to understand black hole feeding processes and the physics of extreme accretion.
                 </p>
+                <p class="image-credit">Illustration credit: NASA/CXC/M.Weiss</p>
             </div>
 
             <div class="figure-item">
